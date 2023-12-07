@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "GraceAdamsProfilePic@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "GraceAdamsProfilePic@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "GraceAdamsProfilePic@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -8,17 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		327F95DE2B20D0DD00AEA8DF /* SwiftUI_IntroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327F95DD2B20D0DD00AEA8DF /* SwiftUI_IntroApp.swift */; };
-		327F95E02B20D0DD00AEA8DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327F95DF2B20D0DD00AEA8DF /* ContentView.swift */; };
 		327F95E22B20D0E200AEA8DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327F95E12B20D0E200AEA8DF /* Assets.xcassets */; };
 		327F95E52B20D0E200AEA8DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327F95E42B20D0E200AEA8DF /* Preview Assets.xcassets */; };
+		327F95EE2B20D17700AEA8DF /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327F95ED2B20D17700AEA8DF /* EditProfileView.swift */; };
+		327F95F12B21191000AEA8DF /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327F95F02B21191000AEA8DF /* ChatListView.swift */; };
+		327F95F32B211A1B00AEA8DF /* PersonChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327F95F22B211A1B00AEA8DF /* PersonChatModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		327F95DA2B20D0DD00AEA8DF /* SwiftUI-Intro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Intro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		327F95DD2B20D0DD00AEA8DF /* SwiftUI_IntroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_IntroApp.swift; sourceTree = "<group>"; };
-		327F95DF2B20D0DD00AEA8DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		327F95E12B20D0E200AEA8DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		327F95E42B20D0E200AEA8DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		327F95ED2B20D17700AEA8DF /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		327F95EF2B20D42500AEA8DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		327F95F02B21191000AEA8DF /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		327F95F22B211A1B00AEA8DF /* PersonChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonChatModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +56,13 @@
 		327F95DC2B20D0DD00AEA8DF /* SwiftUI-Intro */ = {
 			isa = PBXGroup;
 			children = (
+				327F95EF2B20D42500AEA8DF /* Info.plist */,
 				327F95DD2B20D0DD00AEA8DF /* SwiftUI_IntroApp.swift */,
-				327F95DF2B20D0DD00AEA8DF /* ContentView.swift */,
+				327F95F02B21191000AEA8DF /* ChatListView.swift */,
+				327F95ED2B20D17700AEA8DF /* EditProfileView.swift */,
 				327F95E12B20D0E200AEA8DF /* Assets.xcassets */,
 				327F95E32B20D0E200AEA8DF /* Preview Content */,
+				327F95F22B211A1B00AEA8DF /* PersonChatModel.swift */,
 			);
 			path = "SwiftUI-Intro";
 			sourceTree = "<group>";
@@ -137,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				327F95E02B20D0DD00AEA8DF /* ContentView.swift in Sources */,
+				327F95F32B211A1B00AEA8DF /* PersonChatModel.swift in Sources */,
+				327F95EE2B20D17700AEA8DF /* EditProfileView.swift in Sources */,
+				327F95F12B21191000AEA8DF /* ChatListView.swift in Sources */,
 				327F95DE2B20D0DD00AEA8DF /* SwiftUI_IntroApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +280,7 @@
 				DEVELOPMENT_TEAM = WN2YL6YWCV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "SwiftUI-Intro/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -299,7 +309,7 @@
 				DEVELOPMENT_TEAM = WN2YL6YWCV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "SwiftUI-Intro/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
